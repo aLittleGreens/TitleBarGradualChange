@@ -1,5 +1,5 @@
 # TitleBarGradualChange
-仿京东标题栏渐变（包含ScrollView、ListView、RecyclerView）
+仿京东渐变标题栏（包含ScrollView、ListView、RecyclerView）
 
 ScrollView渐变效果
 
