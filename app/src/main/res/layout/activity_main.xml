@@ -29,4 +29,11 @@
         android:text="recyclerView渐变标题栏"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="appBar"
+        android:text="appBarLayout渐变标题栏"
+        android:textAllCaps="false" />
+
 </LinearLayout>

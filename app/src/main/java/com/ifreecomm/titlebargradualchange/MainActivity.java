@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(this,RecyclerActivity.class);
         startActivity(intent);
     }
+
+    public void appBar(View view) {
+        Intent intent = new Intent(this,AppBarActivity.class);
+        startActivity(intent);
+    }
 }
