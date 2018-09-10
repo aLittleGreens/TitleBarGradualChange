@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:title="我是标题"
+            app:titleEnabled="false"
             >
 
             <ImageView
@@ -30,11 +30,12 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
+                android:layout_height="wrap_content"
                 app:layout_collapseMode="pin"
                 app:layout_scrollFlags="scroll|enterAlways"
                 app:navigationIcon="@drawable/ic_back"
-
+                android:paddingTop="15dp"
+                app:title="我是标题"
                 />
 
         </android.support.design.widget.CollapsingToolbarLayout>
