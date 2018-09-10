@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.ifreecomm.titlebargradualchange.utils.StatusbarUtils;
+
 public class AppBarActivity extends AppCompatActivity {
 
 
@@ -15,6 +17,8 @@ public class AppBarActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //设置透明状态栏
+        StatusbarUtils.enableTranslucentStatusbar(this);
         setContentView(R.layout.activity_app_bar);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
